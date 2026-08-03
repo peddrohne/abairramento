@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abairramento 2026 - Geoprocessamento Petrópolis</title>
+    <!-- Vinculação do CSS Externo -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- CABEÇALHO INSTITUCIONAL -->
+    <header>
+        <div class="header-container">
+            <div class="logo-area">
+                <h1>Câmara Municipal de Petrópolis</h1>
+                <span>Comissão de Planejamento, Uso, Ocupação e Parcelamento do Solo, Política Urbanística e Habitação</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#mapa">Mapa Interativo</a></li>
+                    <li><a href="https://forms.gle/Rkj5pLTXLKzQRft6A" target="_blank" rel="noopener noreferrer">Participar</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main>
+        
+        <!-- CARD 1: APRESENTAÇÃO -->
+        <article class="card" id="sobre">
+            <div class="card-header">
+                <h2>Proposta de Abairramento 2025</h2>
+                <p>Consulte a nova delimitação oficial de bairros e localidades do município.</p>
+            </div>
+            <div class="separator"></div>
+            <div class="card-content">
+                <p>Este sistema apresenta a proposta de atualização dos limites territoriais de Petrópolis para o ano de 2025. O projeto visa organizar a divisão administrativa, facilitando o planejamento urbano, a entrega de serviços públicos e o endereçamento postal (CEP).</p>
+                <p>Utilize o mapa abaixo para navegar pelos distritos e identificar o perímetro oficial do seu bairro.</p>
+            </div>
+        </article>
+
+        <!-- CARD 2: MAPA INTERATIVO -->
+        <article class="card map-section" id="mapa">
+            <h3>Navegue no Mapa</h3>
+            
+            <div class="map-wrapper">
+                <iframe 
+                    src="https://sig.petropolis.rj.gov.br/sig3810/index.php/view/map?repository=publico&project=acesso_abairramento_2025&embedded=true" 
+                    title="Mapa Interativo de Abairramento 2025 - Petrópolis"
+                    allowfullscreen="true"
+                    loading="lazy">
+                </iframe>
+            </div>
+
+            <div class="map-tip">
+                <span class="tip-icon" aria-hidden="true">💡</span>
+                <p><strong>Dica para Celular:</strong> Use dois dedos simultaneamente para arrastar e navegar pelo mapa sem travar a rolagem da página e para aparecer o nome dos bairros.</p>
+            </div>
+        </article>
+
+        <!-- CARD 3: PARTICIPAÇÃO -->
+        <article class="card form-section" id="participar">
+            <div class="card-header">
+                <h3>Sua opinião é importante</h3>
+                <p>A delimitação de bairros ainda pode sofrer ajustes. Participe da consulta pública.</p>
+            </div>
+            <div class="separator"></div>
+            <div class="card-content">
+                <p>Você concorda com o limite proposto para o seu bairro no mapa acima? Caso tenha sugestões ou correções, utilize o formulário oficial para enviar sua contribuição à equipe de Geoprocessamento.</p>
+                
+                <a href="https://forms.gle/Rkj5pLTXLKzQRft6A" target="_blank" class="btn-form" rel="noopener noreferrer">
+                    Acessar Formulário de Contribuição
+                </a>
+            </div>
+        </article>
+
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer>
+        <div class="footer-container">
+            <p>Câmara Municipal de Petrópolis</p>
+            <p>Comissão de Planejamento, Uso, Ocupação e Parcelamento do Solo, Política Urbanística e Habitação</p>
+            <p class="copyright">© 2026 - Departamento de Informática</p>
+            <p class="copyright">Pedro H N Esteves</p>
+        </div>
+    </footer>
+
+    <!-- Vinculação do JS Externo -->
+    <script src="script.js"></script>
+</body>
+</html>
